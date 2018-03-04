@@ -1,1 +1,2 @@
-date,orderId,total,shipping,subtotal,billNameFirst,billNameLast,billAddress1,billAddress2,billCity,billState,billZip
+date,orderId,total,shipping,subtotal,shipNameFirst,shipNameLast,shipAddress1,shipAddress2,shipCity,shipState,shipZip,billNameFirst,billNameLast,billAddress1,billAddress2,billCity,billState,billZip
+1970-01-01 01:51:21,1200000001,
