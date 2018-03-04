@@ -5,6 +5,11 @@ import math
 
 file = 'assets/data.csv'
 
+def get_ran(array):
+	# Great place to handle rarity logic.
+	return array[int(round(random.random() * len(roads_kinds))) - 1]
+
+
 # f = open(file, 'r')
 
 date = datetime.datetime.fromtimestamp(
@@ -18,17 +23,15 @@ subtotal = round(total - shipping, 2)
 first = names.get_first_name()
 last = names.get_last_name()
 
-#need to find a way to modify this likelihood mathematically. Quadratic function?
-roads_kinds = 'St','St','St','Rd','Rd', 'Blvd', 'Ave', 'Ct', ''
 
-address_one = str(int(round(random.random() * 10000))) + ' ' + names.get_last_name() + ' ' + roads_kinds[ 
-	int(round(random.random() * len(roads_kinds))) - 1
-]
+roads_kinds = ' St',' St',' St',' Rd',' Rd', ' Blvd', ' Ave', ' Ct', ''
+address_one = str(int(round(random.random() * 10000))) + ' ' + names.get_last_name() +  get_ran(roads_kinds)
 
+units_kinds = 'No. ', 'Unit ', 'Suite ', 'A', 'B', 'C', 'D', 'A-', 'B-', 'C-', 'D-'
 if int( math.floor(random.random() * 5) ):
 	address_two = ''	
 else:
-	address_two = 'No. ' + str(int(round(random.random() * 100)))
+	address_two = get_ran(units_kinds) + str(int(round(random.random() * 100)))
 
 
 
