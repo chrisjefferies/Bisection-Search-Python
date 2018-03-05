@@ -1,2 +1,24 @@
 date,orderId,total,shipping,subtotal,shipNameFirst,shipNameLast,shipAddress1,shipAddress2,shipCity,shipState,shipZip,billNameFirst,billNameLast,billAddress1,billAddress2,billCity,billState,billZip
-1970-01-01 01:51:21,1200000001,
+1970-01-06 18:45:28,12000000001,30.82,0.6,30.22,Bernard,Ricketts,8468 Bonds Rd,B34,Jasper,GA,30143,Bernard,Ricketts,8468 Bonds Rd,B34,Jasper,GA,30143
+1970-01-06 20:39:42,12000000002,182.97,23.15,159.82,Emilie,Cromwell,6986 Polk St,,Richmond,VA,23238,Emilie,Cromwell,6986 Polk St,,Richmond,VA,23238
+1970-01-07 08:05:53,12000000003,30.65,6.49,24.16,Jason,Pittman,77 Mcclendon Rd,,Pitsburg,OH,45358,Jason,Pittman,77 Mcclendon Rd,,Pitsburg,OH,45358
+1970-01-07 18:31:37,12000000004,105.44,13.58,91.86,Jason,Watts,4847 Spencer Ave,,Millheim,PA,16854,Jason,Watts,4847 Spencer Ave,,Millheim,PA,16854
+1970-01-08 16:42:51,12000000005,149.92,16.93,132.99,Joann,Bannon,6355 Mcpherson Rd,,Valleyford,WA,99036,Joann,Bannon,6355 Mcpherson Rd,,Valleyford,WA,99036
+1970-01-08 21:10:49,12000000006,74.24,4.81,69.43,Joann,Mccullough,9823 Hernandez St,,Raleigh,NC,27620,Joann,Mccullough,9823 Hernandez St,,Raleigh,NC,27620
+1970-01-09 10:36:58,12000000007,59.05,9.36,49.69,Francis,Chase,9743 Hammonds St,Suite 98,Eaton,WI,53245,Francis,Chase,9743 Hammonds St,Suite 98,Eaton,WI,53245
+1970-01-09 21:43:14,12000000008,81.88,4.33,77.55,John,Malloy,629 Torres Blvd,,Oak Hill,FL,32759,John,Malloy,629 Torres Blvd,,Oak Hill,FL,32759
+1970-01-10 04:08:03,12000000009,68.01,5.1,62.91,Lucie,Edwards,4173 Egan St,,Snoqualmie,WA,98065,Lucie,Edwards,4173 Egan St,,Snoqualmie,WA,98065
+1970-01-10 11:45:35,12000000010,75.23,10.22,65.01,Leroy,Lester,2031 Calkins St,B25,Erin,TN,37061,Leroy,Lester,2031 Calkins St,B25,Erin,TN,37061
+1970-01-10 18:57:55,12000000011,130.62,18.03,112.59,Carol,Towe,6203 Giles Ct,,Fort Lauderdale,FL,33314,Carol,Towe,6203 Giles Ct,,Fort Lauderdale,FL,33314
+1970-01-11 11:12:51,12000000012,165.59,19.59,146.0,Angelita,Jones,7948 Thompson Rd,,Sarah,MS,38665,Angelita,Jones,7948 Thompson Rd,,Sarah,MS,38665
+1970-01-12 14:21:57,12000000013,41.16,0.9,40.26,Robert,Kujawski,5098 Secor Rd,,Charlotte,NC,28234,Robert,Kujawski,5098 Secor Rd,,Charlotte,NC,28234
+1970-01-13 11:32:00,12000000014,80.2,7.59,72.61,Wava,Paquette,8684 Spence Ave,,Emporia,VA,23847,Wava,Paquette,8684 Spence Ave,,Emporia,VA,23847
+1970-01-14 03:40:55,12000000015,29.61,4.16,25.45,Randall,Schenck,700 Bullard St,,South Roxana,IL,62087,Stuart,Saunders,4299 Johnson Blvd,,Chesapeake,VA,23328
+1970-01-14 08:42:47,12000000016,114.06,13.11,100.95,Eric,Casteel,7230 Lopez St,,Ozone Park,NY,11417,Eric,Casteel,7230 Lopez St,,Ozone Park,NY,11417
+1970-01-14 13:26:23,12000000017,145.43,11.06,134.37,Richard,Hughes,8967 Chesnut St,,Moulton,TX,77975,Richard,Hughes,8967 Chesnut St,,Moulton,TX,77975
+1970-01-14 19:14:57,12000000018,121.73,14.31,107.42,Lenore,Crockett,5895 Schroeder,,Downsville,LA,71234,Lenore,Crockett,5895 Schroeder,,Downsville,LA,71234
+1970-01-15 08:05:03,12000000019,165.71,17.31,148.4,Korey,Dodson,5352 Gonsalves,,York,PA,17401,Ronald,Brown,2791 Baldrige St,No. 65,Santa Fe,NM,87501
+1970-01-16 03:41:58,12000000020,76.26,9.73,66.53,Dorothy,Parent,395 Bureau Ct,,Crosby,TX,77532,Dorothy,Parent,395 Bureau Ct,,Crosby,TX,77532
+1970-01-16 04:32:49,12000000021,138.1,14.95,123.15,Garnet,Hansen,7117 Pikes Ct,,Newport,DE,19814,Garnet,Hansen,7117 Pikes Ct,,Newport,DE,19814
+1970-01-16 06:55:27,12000000022,142.06,12.27,129.79,Steve,Cruice,2562 Adkins St,,Manassas,GA,30438,Steve,Cruice,2562 Adkins St,,Manassas,GA,30438
+1970-01-16 21:05:20,12000000023,49.79,4.2,45.59,Caitlin,Strebe,6620 Harrod Ave,,Evansville,IN,47747,Caitlin,Strebe,6620 Harrod Ave,,Evansville,IN,47747

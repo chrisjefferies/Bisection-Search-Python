@@ -1,0 +1,21 @@
+date,orderId,total,shipping,subtotal,shipNameFirst,shipNameLast,shipAddress1,shipAddress2,shipCity,shipState,shipZip,billNameFirst,billNameLast,billAddress1,billAddress2,billCity,billState,billZip
+1970-01-01 03:27:42,12000000001,194.27,3.41,190.86,Robert,Hobbs,1600 Baier Rd,,Bragg City,MO,63827,Robert,Hobbs,1600 Baier Rd,,Bragg City,MO,63827
+1970-01-01 20:34:04,12000000002,187.35,3.0,184.35,Bonnie,Ward,1154 Baxter St,,Lake Zurich,IL,60047,Bonnie,Ward,1154 Baxter St,,Lake Zurich,IL,60047
+1970-01-01 21:35:56,12000000003,60.61,2.64,57.97,Raymond,Kountz,3690 Whitt Rd,,Mount Eaton,OH,44659,Raymond,Kountz,3690 Whitt Rd,,Mount Eaton,OH,44659
+1970-01-02 15:56:16,12000000004,134.35,2.67,131.68,Harry,Sanders,4514 Cilley St,,Elmaton,TX,77440,Harry,Sanders,4514 Cilley St,,Elmaton,TX,77440
+1970-01-02 19:23:58,12000000005,91.03,4.11,86.92,Robert,Gutierrez,7576 Logan St,,New Castle,PA,16102,Robert,Gutierrez,7576 Logan St,,New Castle,PA,16102
+1970-01-03 09:13:12,12000000006,121.23,3.59,117.64,Regina,Riggs,6839 Phillips Rd,,Fort Lauderdale,FL,33349,Regina,Riggs,6839 Phillips Rd,,Fort Lauderdale,FL,33349
+1970-01-03 19:41:41,12000000007,82.93,3.3,79.63,Lori,Brown,2062 Kish St,,Troy,AL,36081,Lori,Brown,2062 Kish St,,Troy,AL,36081
+1970-01-04 04:52:31,12000000008,138.99,2.75,136.24,Donald,Tiller,6736 Turner Rd,,Waterview,KY,42786,Donald,Tiller,6736 Turner Rd,,Waterview,KY,42786
+1970-01-04 09:18:09,12000000009,61.23,4.36,56.87,Joanne,Tennill,9780 Schwein Ave,,Kenansville,NC,28349,Joanne,Tennill,9780 Schwein Ave,,Kenansville,NC,28349
+1970-01-04 15:32:52,12000000010,169.6,3.03,166.57,Jennie,Munoz,7843 Hernandez Blvd,,Gridley,IL,61744,Jennie,Munoz,7843 Hernandez Blvd,,Gridley,IL,61744
+1970-01-05 05:36:01,12000000011,114.4,2.78,111.62,Rudy,Olsen,4479 Devoll St,,San Mateo,CA,94497,Gregory,Broadwater,6136 Haley Blvd,C-64,New Athens,IL,62264
+1970-01-05 12:31:25,12000000012,111.72,3.62,108.1,Rae,Stripling,9221 Cardozo Ave,,Craigsville,VA,24430,Rae,Stripling,9221 Cardozo Ave,,Craigsville,VA,24430
+1970-01-05 20:38:09,12000000013,188.92,4.96,183.96,Frieda,Putnam,1020 Trimpe St,,Columbus,MS,39703,Frieda,Putnam,1020 Trimpe St,,Columbus,MS,39703
+1970-01-06 10:39:19,12000000014,27.23,3.95,23.28,Annie,Chung,981 Cameron Blvd,,Elizabethville,PA,17023,Sandra,Brussel,4197 Herstad Ct,,North Salem,NY,10560
+1970-01-07 05:36:24,12000000015,138.61,2.73,135.88,Richard,Strauss,4283 Powell Rd,,Boise,ID,83706,Lester,Karl,2809 Miller,,Selden,NY,11784
+1970-01-07 11:11:30,12000000016,164.6,1.11,163.49,Cheryll,Digirolamo,7032 Lake Rd,,Levelock,AK,99625,Cheryll,Digirolamo,7032 Lake Rd,,Levelock,AK,99625
+1970-01-08 09:43:27,12000000017,103.55,2.44,101.11,Ronald,Bailey,6668 Harris St,,Mesquite,TX,75187,Ronald,Bailey,6668 Harris St,,Mesquite,TX,75187
+1970-01-09 04:39:33,12000000018,73.68,2.35,71.33,Kimberly,Scarlato,8325 Miranda Blvd,No. 54,Fort Richardson,AK,99505,Kimberly,Scarlato,8325 Miranda Blvd,No. 54,Fort Richardson,AK,99505
+1970-01-09 11:32:38,12000000019,170.68,0.02,170.66,Paul,Garcia,6069 Flores St,,Lattimer Mines,PA,18234,Paul,Garcia,6069 Flores St,,Lattimer Mines,PA,18234
+1970-01-10 06:25:40,12000000020,185.21,1.06,184.15,Mark,Ayer,5660 Magee,,Haxtun,CO,80731,Mark,Ayer,5660 Magee,,Haxtun,CO,80731

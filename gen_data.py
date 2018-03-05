@@ -3,10 +3,21 @@ import time
 import random
 import names
 import math
+import os
 from pyzipcode import ZipCodeDatabase
+
+
 zcdb = ZipCodeDatabase()
 
-file = 'assets/data.csv'
+# CONTROLS
+file = 'assets/fake-data.csv'
+records = 10
+
+def ran(x, n = 0, r = 2, only_pos = False):
+	if only_pos:
+		return abs(round(random.random() * x + n, r))
+	else:
+		return round(random.random() * x + n, r)
 
 def get_ran(array):
 	# Great place to handle rarity among records logic.
@@ -24,74 +35,84 @@ def create_address():
 	first = names.get_first_name()
 	last = names.get_last_name()
 	roads_kinds = ' St',' St',' St',' Rd',' Rd', ' Blvd', ' Ave', ' Ct', ''
-	address_one = str(int(round(random.random() * 10000))) + ' ' + names.get_last_name() +  get_ran(roads_kinds)
+	address_one = str(int(ran(10000, 0, 0))) + ' ' + names.get_last_name() +  get_ran(roads_kinds)
 
 	units_kinds = 'No. ', 'Unit ', 'Suite ', 'Ste. ' 'A', 'B', 'C', 'D', 'A-', 'B-', 'C-', 'D-'
 	# One in Five contain a unit address
 	if ran_chance(5):
-		address_two = get_ran(units_kinds) + str(int(round(random.random() * 100)))
+		address_two = get_ran(units_kinds) + str(int(ran(100)))
 	else:
 		address_two = ''
 
 	# Brute Force a valid zip code
 	found_one = False
 	while found_one == False:
-		rand_zip = str(int(round(random.random() * 99999)))
+		rand_zip = str(int(ran(99999, 0, 0)))
 		try:
 			_zip = zcdb[ rand_zip ]
-		except Exception:
-			a = True
-		else:
 			found_one = True
+		except Exception:
+			a = True #throwaway
+		# else:
+		# 	found_one = True
 
 	city = _zip.city
 	state = _zip.state
 
 	return str(first+','+last+','+address_one+','+address_two+','+city+','+state+','+rand_zip)
 
-f = open(file, 'r')
 
-# line_l = ast.literal_eval(f)
-num_lines = sum(1 for line in f)
-orderID = num_lines + 12000000000
+def generate(n):
+	for i in range(0, n):
+		with open(file) as f:
+			lines = f.read().splitlines()
+			last_line = lines[-1]
+			f.seek(0) # Guess how long it took to figure this one out.
+			num_lines = sum(1 for line in f)
 
-# date = last_line.split(',')[0]
+		orderID = num_lines + 12000000000
 
-with open(file, 'r') as f:
-	lines = f.read().splitlines()
-	last_line = lines[-1]
+		# Get Unix Timestamp of last date and add it to the last one.
+		if num_lines != 1:
+			unix_date_l = time.mktime(datetime.datetime.strptime(
+				last_line.split(',')[0], 
+				'%Y-%m-%d %H:%M:%S'
+			).timetuple())
+		else:
+			# initial generation case
+			unix_date_l = 0
 
-# Get Unix Timestamp of last date and add it to the last one.
-unix_date = time.mktime(datetime.datetime.strptime(last_line.split(',')[0], '%Y-%m-%d %H:%M:%S').timetuple())
+		iso_date = datetime.datetime.fromtimestamp(
+			int(unix_date_l) + int( ran(100000) )
+		)
 
-iso_date = datetime.datetime.fromtimestamp(
-	int(unix_date) + int( round(random.random() * 100000))
-)
+		total = ran(175, 25) 
+		shipping = ran(0.1, ran(10, -5), 2, True)  
+		subtotal = total - shipping
+		bill_address = create_address()
 
-# print iso_date
+		if ran_chance(10):
+			ship_address = create_address()
+		else:
+			ship_address = bill_address
 
 
-total = round(random.random() * 175 + 25, 2)
-shipping = abs(round(total * 0.1 + ( random.random() * 10 - 5 ), 2) )
-subtotal = round(total - shipping, 2)
-bill_address = create_address()
-if ran_chance(10):
-	ship_address = create_address()
+		f = open(file, 'a') 
+		f.write(str(iso_date)+','+str(orderID)+',')
+		f.write(str(total)+','+str(shipping)+','+str(subtotal)+',')
+		f.write(bill_address+','+ship_address+'\n')
+		f.close()
+
+
+if os.path.isfile(file):
+	generate(records)
 else:
-	ship_address = bill_address
-
-
-
-
-
-
-print orderID
-
-
-
-
-
-
+	f = open(file, 'w')
+	f.write('date,orderId,total,shipping,subtotal,shipNameFirst,shipNameLast,shipAddress1,\
+		shipAddress2,shipCity,shipState,shipZip,billNameFirst,billNameLast,billAddress1,billAddress2,\
+		billCity,billState,billZip\n')
+	f.close()
+	generate(records)
 
 
 
