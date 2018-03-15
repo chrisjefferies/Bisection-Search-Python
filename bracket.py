@@ -8,7 +8,7 @@ def weighted_random_basketball(iter, group):
 	else:
 		return group[1], 'UPSET!'
 
-def bracket():
+def bracket(f = False):
 
 	s = [None] * 8
 	e = [None] * 8
@@ -63,7 +63,12 @@ def bracket():
 			print win[k]
 			k += 1
 
+	if f:
+		print 'National Champion'
+		print win[int(random.random() * 31)]
+
 	# for u in range(0, len(win)):
+	# Ugh. Not enough time to FINISH!
 
 def bracket_round_two():
 
@@ -210,6 +215,24 @@ def national_champion():
 	print 'Texas Tech!'
 
 
-national_champion()
+# national_champion()
+
+# slightly modified for a CoWoker
+# Skips the data input I had to do manually. 
+def for_jaye():
+	bracket(True)
+
+for_jaye()
+
+
+
+
+
+
+
+
+
+
+
 
 
