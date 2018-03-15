@@ -1,0 +1,36 @@
+===Conference Results===
+UVA
+Cin
+Ten
+Ariz
+Ken
+('Loy', 'UPSET!')
+('Tex', 'UPSET!')
+('KS', 'UPSET!')
+===Conference Results===
+Vil
+Purd
+TxTe
+Witc
+('MurS', 'UPSET!')
+Fl
+Ark
+('Ala', 'UPSET!')
+===Conference Results===
+Xav
+UNC
+Mich
+Gonz
+OSU
+('SanDi', 'UPSET!')
+TAM
+('FlS', 'UPSET!')
+===Conference Results===
+Kansas
+Duke
+MSU
+Aub
+Clem
+('Syrac', 'UPSET!')
+URI
+('NCS', 'UPSET!')

@@ -70,5 +70,48 @@ def bisecSearchTwo(x, num):
 
 		
 # completes in 56 guesses. 
-bisecSearchTwo(25.0, 100)
+# bisecSearchTwo(25.0, 100)
+
+
+def gaus(a, b, x):
+	e = 2.71828
+	print a * math.pow(e, ( -(b * math.pow(x, 2) ) ) )
+
+
+# gaus(1, 5, 0.5)
+
+def bracket():
+	s = ['UVA', 'UMBC'], ['Cri', 'KS'], ['Ken', 'Dav'], ['Ariz', 'Buff'], ['Miami', 'Loy'], ['Ten', 'Wri'], ['Nev', 'Tex'], ['Cin', 'Geo']
+
+
+	e = ['Vil','Rad'],['VT','Ala'],['WV','MurS'],['Witc','Mars'],['Fl','StBon'],['TxTe','SF Au'],['Ark','But'],['Purd','CSUF']
+
+
+
+	w = 0:['Xav','TxS'],['Misou','FlS'],['OSU','SDS'],['Gonz','UNCG'],['Hou','SanDi'],2:['Mich','Mont'],['TAM','Prov'],1:['UNC','Lipsc']
+	
+
+	m = ['Kansas','Penn'],['Seton','NCS'],['Clem','NMS'],['Aub','Charl'],['TCU','Syrac'],['MSU','Buckn'],['URI','Oklah'],['Duke','Iona']
+
+
+
+
+	# print n[0][0]
+
+	# for n in range(0, 100): # Brute force a guess
+
+bracket()
+
+
+
+
+
+
+
+
+
+
+
+
+
 

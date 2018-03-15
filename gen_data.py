@@ -11,7 +11,7 @@ zcdb = ZipCodeDatabase()
 
 # CONTROLS
 file = 'assets/fake-data.csv'
-records = 10
+records = 100
 
 def ran(x, n = 0, r = 2, only_pos = False):
 	if only_pos:
@@ -113,6 +113,8 @@ else:
 		billCity,billState,billZip\n')
 	f.close()
 	generate(records)
+
+
 
 
 

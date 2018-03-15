@@ -1,0 +1,18 @@
+===Conference Results===
+UVA
+Cin
+Vil
+Ark
+('Ariz', 'UPSET!')
+('Loya', 'UPSET!')
+Murr
+('TxT', 'UPSET!')
+===Conference Results===
+Xav
+('TAM', 'UPSET!')
+Kan
+Duke
+Gonz
+Mich
+Aub
+('Syrac', 'UPSET!')
