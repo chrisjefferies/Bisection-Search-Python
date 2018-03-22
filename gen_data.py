@@ -53,8 +53,7 @@ def create_address():
 			found_one = True
 		except Exception:
 			a = True #throwaway
-		# else:
-		# 	found_one = True
+		
 
 	city = _zip.city
 	state = _zip.state
